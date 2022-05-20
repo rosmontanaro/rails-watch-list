@@ -56,3 +56,6 @@ gem "simple_form", github: "heartcombo/simple_form"
 
 # Use FAKER
 gem "faker"
+
+# Use Cloudinary
+gem 'dotenv-rails', groups: [:development, :test]
