@@ -4,7 +4,7 @@ class BookmarksController < ApplicationController
 
   def new
     @bookmark = Bookmark.new
-    @list = Bookmark.new
+    # @list = Bookmark.new
   end
 
   def create
